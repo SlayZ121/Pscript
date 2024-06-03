@@ -3,7 +3,7 @@ import zipfile
 import json
 import google.generativeai as genai
 from flask import Flask
-from secretkey import secretkey
+from apikey import secretkey
 
 
 app = Flask(__name__)
